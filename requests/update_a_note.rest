@@ -1,0 +1,16 @@
+PUT http://localhost:3001/api/notes/65e714d7e1ae2f93941e4b0b
+Content-Type: application/json
+
+{
+    "content": "Watch BBT",
+    "important": false
+}
+
+###
+
+PUT http://localhost:3001/api/notes/65e714d7e1ae2f93941e4b0b
+Content-Type: application/json
+
+{
+    "important": true
+}
